@@ -9,6 +9,43 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <div id='container'></div>
+    <div class='main'>
+        
+        <div class='left'>
+            <div id='pencilCase'>
+                <div class='pencils'>
+                    <button>Black Pen</button>
+                    <button>Rainbow Pen</button>
+                    <button>Pencil</button>
+                    <button>Select Colour</button>
+                    <button>Eraser</button>
+                </div> 
+            </div>
+        </div>
+
+        <div class='centre'>
+            <h1>ETCH-A-SKETCH</h1>
+            <div class='container'></div>
+        </div>
+
+        <div class='right'>
+            <button id='clearButton'>Clean Me!</button>
+            <div id="newBoardModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>placeholder for grid selector</p>
+                </div>
+            </div>
+            <div class='gridSelector'>
+                <input type="range" min="10" max="100" value="16" class="slider" id="myRange">
+            </div>
+            <div id='num'></div>
+        </div>
+    </div>
+   
+    <div class='footer'>
+        <div id='copyright'>----- Copyright Oliver Browning 2022 -----</div>
+    </div>
+
 </body>
 </html>
