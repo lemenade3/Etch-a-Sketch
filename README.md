@@ -40,5 +40,5 @@ Features to be implemented:
 
 Known Issues:
 
-- Pencil no longer increments opacity
+- Pencil no longer increments opacity once other pen selected
 - Main slider does not change num value (modal slider still works)
