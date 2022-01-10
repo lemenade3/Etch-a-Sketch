@@ -6,6 +6,14 @@ h1 {
     margin: 18px;
 }
 
+h2 {
+    color: #FEFFFF;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 18px;
+}
+
 .left {
     display: flex;
     flex-direction: column;
@@ -154,6 +162,7 @@ body {
     float: right;
     font-size: 28px;
     font-weight: bold;
+    align-self: flex-end;
   }
 
   .close:hover,
