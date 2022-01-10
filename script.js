@@ -98,11 +98,12 @@ pencil.addEventListener('click', function () {
 });
 
 const pickColour = document.querySelector("#pickColour");
+let colourSelector = document.querySelector("#colourSelector");
 
 pickColour.addEventListener('click', function () {
     for (let i = 0; i < pixels.length; i++) {
         pixels[i].addEventListener('mouseover', function () {
-            colour = 'white';
+            colour = colourSelector.value;
             pixels[i].style.removeProperty("opacity");
         });
     }
