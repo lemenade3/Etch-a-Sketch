@@ -42,3 +42,7 @@ Known Issues:
 
 - Pencil no longer increments opacity once other pen selected
 - Main slider does not change num value (modal slider still works)
+
+10/10/2022
+
+Modal CSS finished

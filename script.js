@@ -73,6 +73,12 @@ window.onclick = function exitModal(event) {
   }
 }
 
+let exit = document.querySelector('#exit');
+
+exit.onclick = function closeModal() {
+  modal.style.display = "none";
+}
+
 // Buttons for colour / drawing style selection
 
 const black = document.querySelector("#bPen");

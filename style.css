@@ -214,11 +214,13 @@ body {
   }
 
   #num {
-      background-color: #2B7A78;
-      color: #DEF2F1;
+      background-color: #DEF2F1;
+      color: #17252A;
       font-size: 20px;
       font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
       padding: 10px;
       border-radius: 20px;
       margin: 20px;
+      border-color: #888;
+      border-width: 1px;
   }
