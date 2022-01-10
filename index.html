@@ -12,15 +12,16 @@
     <div class='main'>
         
         <div class='left'>
-            <div id='pencilCase'>
-                <div class='pencils'>
-                    <button>Black Pen</button>
-                    <button>Rainbow Pen</button>
-                    <button>Pencil</button>
-                    <button>Select Colour</button>
-                    <button>Eraser</button>
-                </div> 
-            </div>
+            <div class='pencils'>
+                <button id='bPen'>Black Pen</button>
+                <button id='rPen'>Rainbow Pen</button>
+                <button id='pencil'>Pencil</button>
+                <button id='pickColour'>
+                    Select Colour
+                    <input type="color" value="#ff0000" id="colourSelector">
+                </button>
+                <button id='erase'>Eraser</button>
+            </div> 
         </div>
 
         <div class='centre'>
@@ -33,7 +34,9 @@
             <div id="newBoardModal" class="modal">
                 <div class="modal-content">
                     <span class="close">&times;</span>
-                    <p>placeholder for grid selector</p>
+                    <div class='gridSelector'>
+                        <input type="range" min="10" max="100" value="16" class="slider" id="myRange">
+                    </div>
                 </div>
             </div>
             <div class='gridSelector'>

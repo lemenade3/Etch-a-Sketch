@@ -12,3 +12,19 @@ Features to be implemented:
 - Pop up when clean me button pressed to change grid density
 - Range slider on page to change grid density
 - CSS styling
+
+10/01/2022
+
+Basics of CSS styling have been implemented and app is basically running.
+
+Rainbow pen, eraser and black pen all working. Grid size can also be changed via use of slider.
+
+Features to be implemented:
+
+- Click on grid to draw
+- Finish Modal design when clearing grid
+- Implement select colour script to allow user selected colours
+
+Known Issues:
+
+- Pencil no longer increments opacity.
