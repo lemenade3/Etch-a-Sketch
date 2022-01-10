@@ -28,3 +28,17 @@ Features to be implemented:
 Known Issues:
 
 - Pencil no longer increments opacity.
+
+10/10/2022
+
+Select Colour button implemented.
+
+Features to be implemented:
+
+- Click on grid to draw
+- Finish Modal Design
+
+Known Issues:
+
+- Pencil no longer increments opacity
+- Main slider does not change num value (modal slider still works)
