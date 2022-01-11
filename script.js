@@ -28,7 +28,7 @@ const pixels = document.getElementsByClassName("pixel");
 
 // Button for clearing grid and open modal for next grid size option
 
-const clearButton = document.querySelector("#clearButton");
+const clearButton = document.querySelector("#cleanMe");
 
 function clearGrid() {
     for (i = 0; i < pixels.length; i++) {
@@ -102,10 +102,10 @@ pencil.addEventListener('click', function () {
     }
 });
 
-const pickColour = document.querySelector("#pickColour");
+const selectColour = document.querySelector("#selectColour");
 let colourSelector = document.querySelector("#colourSelector");
 
-pickColour.addEventListener('click', function () {
+selectColour.addEventListener('click', function () {
     for (let i = 0; i < pixels.length; i++) {
         pixels[i].addEventListener('mouseover', function () {
             colour = colourSelector.value;

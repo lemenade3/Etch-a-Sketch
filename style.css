@@ -1,17 +1,25 @@
-h1 {
-    color: #FEFFFF;
+body {
+    background-color: #3AAFA9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #FEFFFF;
     font-weight: bold;
-    font-size: 65px;
-    margin: 18px;
 }
 
-h2 {
-    color: #FEFFFF;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin: 18px;
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .left {
@@ -34,9 +42,6 @@ h2 {
 .right {
     display: flex;
     flex-direction: column;
-    margin: 50px;
-    align-items: center;
-
 }
 
 .pencils {
@@ -44,26 +49,7 @@ h2 {
     flex-direction: column;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    background-color: #3AAFA9;
-    height: 50px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-#copyright {
-    align-self: center;
-    color: #DEF2F1;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    background-color: #2B7A78;
-    padding: 10px 250px 10px 250px;
-    border-radius: 12px;
-}
-
-button {
+.btn {
     background-color: #17252A;
     color: #DEF2F1;
     padding: 10px;
@@ -71,15 +57,14 @@ button {
     border-style: none;
     margin: 2px;
     border-radius: 20px;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 15px;
 }
 
-#clearButton {
+#cleanMe {
     margin: 20px;
 }
 
-#pickColour {
+#selectColour {
     display: flex;
     align-items: center;
 }
@@ -89,20 +74,26 @@ button {
   margin: 4px;
 }
 
-/* Grid Styling */
-
-body {
-    background-color: #3AAFA9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+h1 {
     
+    font-size: 65px;
+    margin: 18px;
 }
 
-.main {
-    display: flex;
-    align-items: center;
+h2 {
+    font-size: 20px;
+    margin: 18px;
 }
+
+#copyright {
+    align-self: center;
+    color: #DEF2F1;
+    background-color: #2B7A78;
+    padding: 10px 250px 10px 250px;
+    border-radius: 12px;
+}
+
+/* Grid Styling */
 
 .container {
     display: flex;
@@ -121,7 +112,6 @@ body {
 }
 
 .pixel {
-    background-color: white;
     flex: 1;
     border-color: rgb(230, 230, 230);
     border-style: solid;
@@ -172,10 +162,10 @@ body {
     cursor: pointer;
 }
 
-/* Styles Slider */
+/* Slider */
 
 .gridSelector {
-    width: 100%; /* Width of the outside container */
+    width: 100%;
   }
   
   .slider {
@@ -190,7 +180,6 @@ body {
     transition: opacity .2s;
   }
   
-  /* Mouse-over effects */
   .slider:hover {
     opacity: 1; /* Fully shown on mouse-over */
   }
@@ -216,8 +205,7 @@ body {
   #num {
       background-color: #DEF2F1;
       color: #17252A;
-      font-size: 20px;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 20px;;
       padding: 10px;
       border-radius: 20px;
       margin: 20px;

@@ -55,4 +55,4 @@ Bugfixes:
 
 11/10/2022
 
-- Opacity imcrements on all colours after selecting pencil
+- Pencil Colour breaks code, fix not known

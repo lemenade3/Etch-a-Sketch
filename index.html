@@ -13,14 +13,14 @@
         
         <div class='left'>
             <div class='pencils'>
-                <button id='bPen'>Black Pen</button>
-                <button id='rPen'>Rainbow Pen</button>
-                <button id='pencil'>Pencil</button>
-                <button id='pickColour'>
+                <button class='btn' id='bPen'>Black Pen</button>
+                <button class='btn' id='rPen'>Rainbow Pen</button>
+                <button class='btn' id='pencil'>Pencil</button>
+                <button class='btn' id='selectColour'>
                     Select Colour
                     <input type="color" value="#ff0000" id="colourSelector">
                 </button>
-                <button id='erase'>Eraser</button>
+                <button class='btn' id='erase'>Eraser</button>
             </div> 
         </div>
 
@@ -30,7 +30,7 @@
         </div>
 
         <div class='right'>
-            <button id='clearButton'>Clean Me!</button>
+            <button class='btn' id='cleanMe'>Clean Me!</button>
             <div id="newBoardModal" class="modal">
                 <div class="modal-content">
                     <span class="close">&times;</span>
@@ -40,14 +40,10 @@
                     </div>
                     <div id='num'></div>
                     <div>
-                        <button id="exit">No Thanks</button>
-                        <button>Sure!</button>
+                        <button class='btn' id="exit">Sure!</button>
                     </div>
                     
                 </div>
-            </div>
-            <div class='gridSelector'>
-                <input type="range" min="10" max="100" value="16" class="slider" id="myRange">
             </div>
         </div>
     </div>
