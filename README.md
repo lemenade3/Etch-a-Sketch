@@ -46,3 +46,13 @@ Known Issues:
 10/10/2022
 
 Modal CSS finished
+
+10/10/2022
+
+Bugfixes:
+
+- Removed opacity when clearing grid
+
+11/10/2022
+
+- Opacity imcrements on all colours after selecting pencil

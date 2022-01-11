@@ -87,7 +87,6 @@ black.addEventListener('click', function () {
     for (let i = 0; i < pixels.length; i++) {
         pixels[i].addEventListener('mouseover', function () {
             colour = 'black';
-            pixels[i].style.removeProperty("opacity");
         });
     }
 });
@@ -110,7 +109,7 @@ pickColour.addEventListener('click', function () {
     for (let i = 0; i < pixels.length; i++) {
         pixels[i].addEventListener('mouseover', function () {
             colour = colourSelector.value;
-            pixels[i].style.removeProperty("opacity");
+            
         });
     }
 });
@@ -121,7 +120,6 @@ erase.addEventListener('click', function () {
     for (let i = 0; i < pixels.length; i++) {
         pixels[i].addEventListener('mouseover', function () {
             colour = 'white';
-            pixels[i].style.removeProperty("opacity");
         });
     }
 });
@@ -134,7 +132,6 @@ rainbow.addEventListener('click', function () {
     for (let i = 0; i < pixels.length; i++) {
         pixels[i].addEventListener('mouseover', function () {
             colour = '#'+(0x1000000+(Math.random())*0xffffff).toString(16).substr(1,6);
-            pixels[i].style.removeProperty("opacity");
         });
     }
 });
