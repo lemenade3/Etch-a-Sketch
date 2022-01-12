@@ -93,14 +93,14 @@ black.addEventListener('click', function () {
 
 const pencil = document.querySelector("#pencil");
 
-pencil.addEventListener('click', function () {
+/*pencil.addEventListener('click', function () {
     for (let i = 0; i < pixels.length; i++) {
         pixels[i].addEventListener('mouseover', function () {
             colour = 'black';
             pixels[i].style.opacity -= '-0.1';
         });
     }
-});
+}); */
 
 const selectColour = document.querySelector("#selectColour");
 let colourSelector = document.querySelector("#colourSelector");
@@ -109,7 +109,6 @@ selectColour.addEventListener('click', function () {
     for (let i = 0; i < pixels.length; i++) {
         pixels[i].addEventListener('mouseover', function () {
             colour = colourSelector.value;
-            
         });
     }
 });
@@ -125,8 +124,6 @@ erase.addEventListener('click', function () {
 });
 
 const rainbow = document.querySelector("#rPen");
-
-let randomColor = '#'+(0x1000000+(Math.random())*0xffffff).toString(16).substr(1,6);
 
 rainbow.addEventListener('click', function () {
     for (let i = 0; i < pixels.length; i++) {
