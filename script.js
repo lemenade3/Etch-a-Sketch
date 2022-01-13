@@ -132,3 +132,5 @@ rainbow.addEventListener('click', function () {
         });
     }
 });
+
+// use event listener with if else inside make grid function to check which button clicked

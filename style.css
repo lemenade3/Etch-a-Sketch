@@ -28,7 +28,8 @@ body {
     justify-content: center;
     align-items: center;
     padding: 25px;
-    margin: 50px;
+    margin-left: 75px;
+    margin-right: 25px;
     background-color: #2B7A78;
     border-radius: 15px;
 }
@@ -42,6 +43,7 @@ body {
 .right {
     display: flex;
     flex-direction: column;
+    margin-right: 100px;
 }
 
 .pencils {
